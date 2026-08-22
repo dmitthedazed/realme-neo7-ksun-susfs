@@ -1,0 +1,8 @@
+fix_Kbuild.patch
+fix_init.c.patch
+fix_kernel_umount.c.patch
+fix_setuid_hook.c.patch
+fix_sucompat.c.patch
+fix_supercall.c.patch
+ksu_toolkit.patch
+overwrite_hook_mode.patch

@@ -1,0 +1,26 @@
+ drivers/Kconfig              |   1 +
+ drivers/Makefile             |   2 +
+ drivers/input/input.c        |  10 ++
+ fs/Makefile                  |   2 +
+ fs/exec.c                    |  27 +++++
+ fs/namei.c                   | 233 ++++++++++++++++++++++++++++++++++++++++
+ fs/namespace.c               | 246 +++++++++++++++++++++++++++++++++++++++++++
+ fs/notify/fdinfo.c           |  58 ++++++++++
+ fs/open.c                    |  28 +++++
+ fs/proc/base.c               |  24 +++++
+ fs/proc/bootconfig.c         |  13 +++
+ fs/proc/fd.c                 |  78 ++++++++++++++
+ fs/proc/task_mmu.c           |  70 ++++++++++++
+ fs/proc_namespace.c          | 178 +++++++++++++++++++++++++++++++
+ fs/read_write.c              |  10 ++
+ fs/readdir.c                 | 111 +++++++++++++++++++
+ fs/stat.c                    |  62 +++++++++++
+ fs/statfs.c                  |  45 ++++++++
+ kernel/kallsyms.c            |  31 ++++++
+ kernel/reboot.c              |  12 +++
+ kernel/sys.c                 |  16 +++
+ mm/memory.c                  |   8 ++
+ security/selinux/avc.c       |  21 +++-
+ security/selinux/hooks.c     |  45 ++++++++
+ security/selinux/selinuxfs.c | 143 +++++++++++++++++++++++++
+ 25 files changed, 1473 insertions(+), 1 deletion(-)
