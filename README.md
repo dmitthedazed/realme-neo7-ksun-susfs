@@ -4,10 +4,10 @@
 
 Kernel source for **realme Neo7 (RMX5060)** with root via KernelSU Next and root hiding via SUSFS.
 
-![Kernel](https://img.shields.io/badge/kernel-6.1.157-informational)
-![KernelSU Next](https://img.shields.io/badge/KernelSU_Next-v3.3.0-success)
-![SUSFS](https://img.shields.io/badge/SUSFS-v2.2.0-success)
-![Status](https://img.shields.io/badge/status-tested-yellow)
+![Kernel](https://img.shields.io/badge/kernel-6.1.157-informational?style=flat-square)
+![KernelSU Next](https://img.shields.io/badge/KernelSU_Next-v3.3.0-success?style=flat-square)
+![SUSFS](https://img.shields.io/badge/SUSFS-v2.2.0-success?style=flat-square)
+![Status](https://img.shields.io/badge/status-tested-yellow?style=flat-square)
 
 </div>
 
@@ -108,12 +108,12 @@ licenses/               GPL and upstream license texts
 
 </details>
 
-## Licenses
-
-The kernel is GPL-2.0. KernelSU Next is GPL-2.0 in its kernel part and GPL-3.0-or-later elsewhere. SUSFS is GPL-3.0-or-later. Texts are in [`licenses/`](licenses).
-
-The KernelSU Next app and the SUSFS module aren't bundled here, get them from upstream. No stock firmware, backups or personal data are included.
-
 ## Credits
 
 [KernelSU Next](https://github.com/KernelSU-Next/KernelSU-Next) · [SUSFS by simonpunk](https://gitlab.com/simonpunk/susfs4ksu) · [WildKernels](https://github.com/WildKernels/OnePlus_KernelSU_SUSFS) · [OnePlusOSS](https://github.com/OnePlusOSS)
+
+## License
+
+The kernel and these patches are GPL-2.0 ([LICENSE](LICENSE)). KernelSU Next is GPL-2.0 in its kernel part and GPL-3.0-or-later elsewhere. SUSFS is GPL-3.0-or-later. Texts are in [`licenses/`](licenses).
+
+The KernelSU Next app and the SUSFS module aren't bundled here, get them from upstream. No stock firmware, backups or personal data are included.
